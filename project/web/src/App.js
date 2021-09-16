@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+// 함수 형식(function type)
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -20,6 +21,22 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;*/
+
+// 클래스 형식(class type)
+import React, { Component } from 'react';
+/*import logo from './logo.svg';*/
+import './App.css';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        Hello, React!!!
+      </div>
+    )
+  }
 }
 
 export default App;
